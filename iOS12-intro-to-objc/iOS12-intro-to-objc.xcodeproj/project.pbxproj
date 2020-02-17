@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		BD69310523FB010800C0DF09 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BD69310423FB010800C0DF09 /* main.m */; };
+		BD69310D23FB03B100C0DF09 /* SyntaxBasics.m in Sources */ = {isa = PBXBuildFile; fileRef = BD69310C23FB03B100C0DF09 /* SyntaxBasics.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		BD69310123FB010800C0DF09 /* iOS12-intro-to-objc */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "iOS12-intro-to-objc"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD69310423FB010800C0DF09 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BD69310B23FB03B100C0DF09 /* SyntaxBasics.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SyntaxBasics.h; sourceTree = "<group>"; };
+		BD69310C23FB03B100C0DF09 /* SyntaxBasics.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SyntaxBasics.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				BD69310423FB010800C0DF09 /* main.m */,
+				BD69310B23FB03B100C0DF09 /* SyntaxBasics.h */,
+				BD69310C23FB03B100C0DF09 /* SyntaxBasics.m */,
 			);
 			path = "iOS12-intro-to-objc";
 			sourceTree = "<group>";
@@ -120,6 +125,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BD69310523FB010800C0DF09 /* main.m in Sources */,
+				BD69310D23FB03B100C0DF09 /* SyntaxBasics.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

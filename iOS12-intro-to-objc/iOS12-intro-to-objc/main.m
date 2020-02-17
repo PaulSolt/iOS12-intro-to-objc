@@ -9,9 +9,13 @@
 #import <Foundation/Foundation.h>
 
 int main(int argc, const char * argv[]) {
-    @autoreleasepool {
+    @autoreleasepool { // ARC = Automatic Reference Counting (prevents memory leaks)
         // insert code here...
-        NSLog(@"Hello, World!");
+        /* multiline comments
+         */
+        
+//        print("Hello, World!")    // Swift
+        NSLog(@"Hello %@!", @"Paul");
     }
     return 0;
 }

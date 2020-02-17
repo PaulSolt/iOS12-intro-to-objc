@@ -100,4 +100,17 @@
 
 }
 
+- (void)exploreObjects {
+    
+}
+
+- (void)exploreCollectionsWithArray:(NSArray *)shipCaptains {
+    
+}
+
+- (void)exploreNumbers {
+    
+}
+
+
 @end

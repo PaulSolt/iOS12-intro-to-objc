@@ -26,6 +26,16 @@ int main(int argc, const char * argv[]) {
         SyntaxBasics *basics = [[SyntaxBasics alloc] initWithLargeNumber:@9223372036];
         
         [basics explorePrimitives];
+        [basics exploreObjects];
+        
+        // Swift
+//        basics.exploreCollections(array: ["John", "Jim", "Sue"])
+        
+        [basics exploreCollectionsWithArray:@[@"Malcolm Reynolds",
+                                               @"Jean-Luc Picard",
+                                               @"James T. Kirk",
+                                               @"Kathryn Janeway"]];
+        
     }
     return 0;
 }

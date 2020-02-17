@@ -139,7 +139,61 @@
 }
 
 - (void)exploreCollectionsWithArray:(NSArray *)shipCaptains {
+    NSLog(@"---------------Collections---------------");
     
+    // Array - ordered collection of objects, immutable
+    NSLog(@"Serenity: %@", shipCaptains[0]);
+
+    // Array comparison
+    NSArray *sameCaptains = @[@"Malcolm Reynolds",
+                              @"Jean-Luc Picard",
+                              @"James T. Kirk",
+                              @"Kathryn Janeway"];
+
+    // Swift
+    //    if shipCaptains == sameCaptains {
+    //
+    //    }
+
+    if ([shipCaptains isEqualToArray:sameCaptains]) {
+        NSLog(@"Arrays are equal!");
+    } else {
+        NSLog(@"Arrays are not equal");
+    }
+    
+    // for loop
+    
+    // Swift
+//    for i in 0 ..< shipCaptains.count {
+//        print(shipCaptains[i])
+//    }
+    
+    // i++ = i += 1
+    // for (variable; condition; increment)
+    for (int i = 0; i < shipCaptains.count; i++) {
+        NSLog(@"Captain on the bridge: %@", shipCaptains[i]);
+    }
+    
+    // Check element for membership
+    if ([shipCaptains containsObject:@"Kathryn Janeway"]) {
+        NSLog(@"U.S.S Voyager reporting for duty");
+    }
+    
+    // Find index of object
+    
+    
+    // Same as above NSArray type, except can be mutated
+    // note: array literal syntax can't be used for NSMutableArray
+    
+    
+    // Dictionary - unordered collection of key-value pairs, immutable
+    
+    
+    // NSMutableDictionary - same as above, but can be mutated
+    // note: dictionary literal syntax can't be used for NSMutableDictionary
+    
+    NSLog(@"---------------End Collections---------------");
+
 }
 
 - (void)exploreNumbers {

@@ -7,6 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "SyntaxBasics.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool { // ARC = Automatic Reference Counting (prevents memory leaks)
@@ -16,6 +17,15 @@ int main(int argc, const char * argv[]) {
         
 //        print("Hello, World!")    // Swift
         NSLog(@"Hello %@!", @"Paul");
+        
+        // Swift
+//        let basics = SyntaxBasics(largeNumber: 9_223_372_036)
+//        basics.explorePrimitives()
+        
+        // Rule #3: Always import your code before you use it
+        SyntaxBasics *basics = [[SyntaxBasics alloc] initWithLargeNumber:@9223372036];
+        
+        [basics explorePrimitives];
     }
     return 0;
 }

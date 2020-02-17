@@ -20,6 +20,11 @@
     return self;
 }
 
+// Swift
+//func explorePrimitives() {
+//    print("Large number: \(largeNumber)")
+//}
+
 - (void)explorePrimitives {
     // Rule #2: Always use self outside init/dealloc
     NSLog(@"Large number: %@", self.largeNumber);
